@@ -1,0 +1,1352 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good day",
+        "Greetings",
+        "Hey there",
+        "Hi, how are you?",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Nice to meet you",
+        "Hey, what's up?",
+        "Howdy",
+        "Yo",
+        "Hiya",
+        "What's happening?",
+        "Hi, there!",
+        "Hello, how can I help you?"
+      ],
+      "responses": [
+        "Hello! How can I assist you?",
+        "Hi there! How may I help you today?",
+        "Hey! How can I be of service?",
+        "Good day! How can I assist you?",
+        "Greetings! How may I help you today?",
+        "Hey there! How can I assist you?",
+        "Hi, I'm here to help. How can I assist you?",
+        "Good morning! How can I assist you today?",
+        "Good afternoon! How can I help you?",
+        "Good evening! How can I assist you today?",
+        "Nice to meet you! How can I assist you?",
+        "Hey, what can I do for you today?",
+        "Howdy! How can I help you?",
+        "Yo! How can I assist you today?",
+        "Hiya! How can I be of service?",
+        "What's happening? How can I assist you?",
+        "Hi there! How can I help you today?",
+        "Hello, how can I assist you?",
+        "Hi, how may I assist you today?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you",
+        "Take care",
+        "Until next time",
+        "So long",
+        "Adios",
+        "Ciao"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Bye! Take care!",
+        "See you later!",
+        "Until next time! Have a good one!",
+        "Take care! Goodbye!",
+        "So long! See you soon!",
+        "Adios! Have a wonderful day!",
+        "Ciao! Until we meet again!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "Thanks a lot",
+        "Thank you so much",
+        "Many thanks",
+        "I'm grateful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem, happy to help!",
+        "Glad I could assist you!",
+        "You're welcome! Let me know if there's anything else I can do for you.",
+        "No worries, always here to help!",
+        "My pleasure! If you have any more questions, feel free to ask.",
+        "You're welcome! Have a fantastic day!",
+        "No problem at all! If you need any further assistance, just let me know."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "What phones do you have?",
+        "Tell me about your phone options",
+        "Which brands do you offer?",
+        "Can you recommend a phone?",
+        "I'm looking for a new phone",
+        "What are the available phone models?",
+        "Do you have any latest smartphone releases?",
+        "Tell me about your phone collection",
+        "Which phone would you suggest for gaming?",
+        "What are the popular phone brands you carry?",
+        "What features do your phones have?",
+        "I want to know more about your phone inventory",
+        "Do you have any budget-friendly phones?",
+        "Which phones have good camera quality?"
+      ],
+      "responses": [
+        "We offer a wide range of phones from top brands including Apple, Samsung, Google, Xiaomi, OnePlus, and more.",
+        "Our phone collection includes the latest models from popular brands like Apple, Samsung, Google, Xiaomi, OnePlus, and more.",
+        "We have various phone options to suit different needs and budgets. Our brands include Apple, Samsung, Google, Xiaomi, OnePlus, and more.",
+        "If you're looking for a recommendation, I suggest checking out the latest models from Apple, Samsung, Google, Xiaomi, OnePlus, and more.",
+        "Our phone inventory consists of top brands like Apple, Samsung, Google, Xiaomi, OnePlus, and more. Let me know if you have any specific preferences.",
+        "Our phone brands include Apple, Samsung, Google, Xiaomi, OnePlus, and more. Each brand offers unique features and specifications. Feel free to ask for more details.",
+        "We carry popular phone brands like Apple, Samsung, Google, Xiaomi, OnePlus, and more. Let me know your preferences or requirements, and I can provide further information.",
+        "Our phone collection features models with excellent camera quality from top brands like Apple, Samsung, Google, Xiaomi, OnePlus, and more.",
+        "Feel free to explore our phone options from leading brands such as Apple, Samsung, Google, Xiaomi, OnePlus, and more. Let me know if you need assistance in choosing the right phone for you."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "product_comparison",
+      "patterns": [
+        "Compare phones for me",
+        "What are the differences between phone models?",
+        "Which phone offers better performance?",
+        "Compare features of different phones",
+        "Can you help me decide between two phones?",
+        "What sets one phone apart from the others?",
+        "Which phone has a better camera?",
+        "I need help choosing between two phone brands",
+        "Compare the battery life of different phones",
+        "What are the pros and cons of different phone models?",
+        "Which phone has a larger display?"
+      ],
+      "responses": [
+        "Sure! I can help you compare different phones. Please provide me with the specific models or brands you are interested in.",
+        "Comparing phone models can help you make an informed decision. Let me know which models or features you would like to compare, and I'll provide you with the details.",
+        "When comparing phone models, it's important to consider factors like performance, camera quality, battery life, display size, and other features. Let me know the specific models you want to compare, and I'll assist you.",
+        "I'd be happy to assist you in comparing different phone models. Let me know which models or brands you are interested in, and I'll provide you with a detailed comparison.",
+        "Comparing phones can help you find the best fit for your needs. Let me know which phones you want to compare, and I'll provide you with the necessary information.",
+        "To compare phone models,you can provide me with the specific models or brands you want to compare, and I'll provide you with a detailed comparison of their features, performance, camera quality, battery life, and more.",
+        "If you're having trouble deciding between two phones, let me know the models or brands you're considering, and I'll help you weigh the pros and cons to make an informed decision.",
+        "When comparing phones, it's important to consider factors like performance, camera quality, battery life, display size, and other features. Let me know the specific models or brands you want to compare, and I'll assist you in making a decision.",
+        "I can help you compare the battery life of different phones. Please provide me with the specific models or brands you are interested in, and I'll provide you with the battery life details.",
+        "Comparing the pros and cons of different phone models can help you make a better decision. Let me know the specific models or brands you want to compare, and I'll provide you with the necessary information.",
+        "If you're looking for a phone with a larger display, let me know the specific models or brands you are interested in, and I'll provide you with the display size details."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell me about your shop",
+        "Tell me about Pixer Universe",
+        "What is your shop all about?",
+        "Can you give me some information about your shop?",
+        "What makes your shop unique?",
+        "Tell me more about your business",
+        "What are the specialties of your shop?"
+      ],
+      "responses": [
+        "Our shop is a leading destination for all your smartphone needs. We offer a wide range of top-quality phones from renowned brands, including Apple, Samsung, Google, Xiaomi, OnePlus, and more. Our goal is to provide our customers with the latest and greatest smartphones with cutting-edge features and exceptional performance. Additionally, we pride ourselves on delivering excellent customer service and ensuring a seamless shopping experience. Whether you're looking for a flagship device or a budget-friendly option, we have the perfect phone to suit your needs. Visit our shop and discover the world of advanced technology and innovation!"
+      ]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "Tell me about the latest phones",
+        "What features do smartphones have?",
+        "Which brands do you sell?"
+      ],
+      "responses": [
+        "Sure, here are some of the latest phones we have: Iphone 14 pro Max, Samsung Galaxy Z Flip 4, Samsung Galaxy S23 Ultra, Google Pixel 7 pro, Huawei P60 Pro",
+        "Our shop offers a wide range of smartphones with various features. Here are a few options: Iphone 14 pro Max, Samsung Galaxy Z Flip 4, Samsung Galaxy S23 Ultra, Google Pixel 7 pro, Huawei P60 Pro"
+      ]
+    },
+    {
+      "tag": "phone_details",
+      "patterns": [
+        "Tell me more about the [phone]",
+        "What are the features of the [phone]?",
+        "Can you provide information about the [phone]?"
+      ],
+      "responses": [
+        "The [phone] is a great choice! Here are some of its key features:",
+        "Sure! The [phone] offers the following features:"
+      ]
+    },
+    {
+      "tag": "Iphone_7_Plus_details",
+      "patterns": [
+        "Tell me more about the Iphone 7 Plus",
+        "What are the features of the Iphone 7 Plus?",
+        "Can you provide information about the Iphone 7 Plus?"
+      ],
+      "responses": [
+        "The Iphone 7 Plus is a great choice! Here are some of its key features: A10 Processor Fusion+ M10 motion coprocessor,  3GB RAM, Storage options starting from 64GB 128GB 256GB, 5.5-inch Retina HD 1920*1080 pielxs Display, Camera: Front camera 7MP plus Rear Camera 12MP",
+        "Sure! The Iphone 7 Plus offers the following features: A10 Processor Fusion+ M10 motion coprocessor,  3GB RAM, Storage options starting from 64GB 128GB 256GB, 5.5-inch Retina HD 1920*1080 pielxs Display, Camera: Front camera 7MP plus Rear Camera 12MP"
+      ]
+    },
+    {
+      "tag": "Iphone_8_details",
+      "patterns": [
+        "Tell me more about the Iphone 8",
+        "What are the features of the Iphone 8?",
+        "Can you provide information about the Iphone 8?"
+      ],
+      "responses": [
+        "The Iphone 8 is a great choice! Here are some of its key features: 4.70-inch (750x1334) Display, Apple A11 Bionic system-on-chip Processor, Front Camera 7MP plus Rear Camera 12MP, 2GB RAM· Storage options starting from 64GB 128GB 256GB,  1821mAh Battery Capacity.",
+        "Sure! The Iphone 8 offers the following features 4.70-inch (750x1334) Display, Apple A11 Bionic system-on-chip Processor, Front Camera 7MP plus Rear Camera 12MP, 2GB RAM· Storage options starting from 64GB 128GB 256GB,  1821mAh Battery Capacity.:"
+      ]
+    },
+    {
+      "tag": "Iphone_8_Plus_details",
+      "patterns": [
+        "Tell me more about the Iphone 8 Plus",
+        "What are the features of the Iphone 8 Plus?",
+        "Can you provide information about the Iphone 8 Plus?"
+      ],
+      "responses": [
+        "The Iphone 8 Plus is a great choice! Here are some of its key features: Display 5.50-inch (1080x1920), Apple A11 Bionic system-on-chip Processor, Front Camera 7MP plus Rear Camera 12MP, 3GB RAM,Storage options starting from 64GB 128GB 256GB, 2,675mAh Battery Capacity",
+        "Sure! The Iphone 8 Plus offers the following features: Display 5.50-inch (1080x1920), Apple A11 Bionic system-on-chip Processor, Front Camera 7MP plus Rear Camera 12MP, 3GB RAM,Storage options starting from 64GB 128GB 256GB, 2,675mAh Battery Capacity"
+      ]
+    },
+    {
+      "tag": "phone_brand",
+      "patterns": [
+        "Which brands of phones do you have?",
+        "What are the popular phone brands you sell?",
+        "Types of Phones?",
+        "Do you offer phones from different brands?"
+      ],
+      "responses": [
+        "We offer smartphones from various brands, including: Apple, Samsung, Google, Xiaomi, OnePlus, Huwawi, Oppo and more",
+        "Our shop sells phones from popular brands such as: Apple, Samsung, Google, Xiaomi, OnePlus, Huwawi, Oppo and more"
+      ]
+    },
+    {
+      "tag": "latest_Iphone_price",
+      "patterns": [
+        "What is the price of the latest Iphone?",
+        "How much does the latest Iphone cost?",
+        "Can you tell me the price of the latest Iphone?",
+        "What is the latest Iphone?"
+      ],
+      "responses": [
+        "The latest Iphone is Iphone 14 Pro Max and it will cost 480000 Sri Lankan Rupees.",
+        "The latest Iphone available is the Iphone 14 Pro Max for 480000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_7+_price",
+      "patterns": [
+        "What is the price of the Iphone 7 plus?",
+        "How much does the Iphone 7 plus cost?",
+        "Can you tell me the price of the Iphone 7 plus ?"
+      ],
+      "responses": [
+        "The price of the Iphone 7 plus is 55000 Sri Lankan Rupees.",
+        "The Iphone 7 plus is available for 55000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_8_price",
+      "patterns": [
+        "What is the price of the Iphone 8?",
+        "How much does the Iphone 8 cost?",
+        "Can you tell me the price of the Iphone 8?"
+      ],
+      "responses": [
+        "The price of the Iphone 8 is 50000 Sri Lankan Rupees.",
+        "The Iphone 8 is available for 50000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_8+_price",
+      "patterns": [
+        "What is the price of the Iphone 8 plus?",
+        "How much does the Iphone 8 plus cost?",
+        "Can you tell me the price of the Iphone 8 plus ?"
+      ],
+      "responses": [
+        "The price of the Iphone 8 plus is 75000 Sri Lankan Rupees.",
+        "The Iphone 8 plus is available for 75000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_X_price",
+      "patterns": [
+        "What is the price of the Iphone X?",
+        "How much does the Iphone X cost?",
+        "Can you tell me the price of the Iphone X?"
+      ],
+      "responses": [
+        "The price of the Iphone X is 80000 Sri Lankan Rupees.",
+        "The Iphone X is available for 80000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_XS_price",
+      "patterns": [
+        "What is the price of the Iphone XS?",
+        "How much does the Iphone XS cost?",
+        "Can you tell me the price of the Iphone XS?"
+      ],
+      "responses": [
+        "The price of the Iphone XS is 85000 Sri Lankan Rupees.",
+        "The Iphone XS is available for 85000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_XR_price",
+      "patterns": [
+        "What is the price of the Iphone XR?",
+        "How much does the Iphone XR cost?",
+        "Can you tell me the price of the Iphone XR?"
+      ],
+      "responses": [
+        "The price of the Iphone XR is 82000 Sri Lankan Rupees.",
+        "The Iphone XR is available for 82000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_XS_Max_price",
+      "patterns": [
+        "What is the price of the Iphone XS Max?",
+        "How much does the Iphone XS Max cost?",
+        "Can you tell me the price of the Iphone XS Max?"
+      ],
+      "responses": [
+        "The price of the Iphone XS Max is 115000 Sri Lankan Rupees.",
+        "The Iphone XS Max is available for 115000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_11_Pro_Max_price",
+      "patterns": [
+        "What is the price of the Iphone 11 Pro Max?",
+        "How much does the Iphone 11 Pro Max cost?",
+        "Can you tell me the price of the Iphone 11 Pro Max?"
+      ],
+      "responses": [
+        "The price of the Iphone 11 Pro Max is 180000 Sri Lankan Rupees.",
+        "The Iphone 11 Pro Max is available for 180000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_11_Pro_price",
+      "patterns": [
+        "What is the price of the Iphone 11 Pro?",
+        "How much does the Iphone 11 Pro cost?",
+        "Can you tell me the price of the Iphone 11 Pro?"
+      ],
+      "responses": [
+        "The price of the Iphone 11 Pro is 160000 Sri Lankan Rupees.",
+        "The Iphone 11 Pro is available for 160000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_11_price",
+      "patterns": [
+        "What is the price of the Iphone 11?",
+        "How much does the Iphone 11 cost?",
+        "Can you tell me the price of the Iphone 11?"
+      ],
+      "responses": [
+        "The price of the Iphone 11 is 120000 Sri Lankan Rupees.",
+        "The Iphone 11 is available for 120000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_12_price",
+      "patterns": [
+        "What is the price of the Iphone 12?",
+        "How much does the Iphone 12 cost?",
+        "Can you tell me the price of the Iphone 12?"
+      ],
+      "responses": [
+        "The price of the Iphone 12 is 170000 Sri Lankan Rupees.",
+        "The Iphone 12 is available for 170000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_12_Mini_price",
+      "patterns": [
+        "What is the price of the Iphone 12 Mini?",
+        "How much does the Iphone 12 Mini cost?",
+        "Can you tell me the price of the Iphone 12 Mini?"
+      ],
+      "responses": [
+        "The price of the Iphone 12 Mini is 120000 Sri Lankan Rupees.",
+        "The Iphone 12 Mini is available for 120000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_12_Pro_price",
+      "patterns": [
+        "What is the price of the Iphone 12 Pro?",
+        "How much does the Iphone 12 Pro cost?",
+        "Can you tell me the price of the Iphone 12 Pro?"
+      ],
+      "responses": [
+        "The price of the Iphone 12 Pro is 205000 Sri Lankan Rupees.",
+        "The Iphone 12 Pro is available for 205000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_12_Pro_Max_price",
+      "patterns": [
+        "What is the price of the Iphone 12 Pro Max?",
+        "How much does the Iphone 12 Pro Max cost?",
+        "Can you tell me the price of the Iphone 12 Pro Max?"
+      ],
+      "responses": [
+        "The price of the Iphone 12 Pro Max is 230000 Sri Lankan Rupees.",
+        "The Iphone 12 Pro Max is available for 230000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_13_Pro_Max_price",
+      "patterns": [
+        "What is the price of the Iphone 13 Pro Max?",
+        "How much does the Iphone 13 Pro Max cost?",
+        "Can you tell me the price of the Iphone 13 Pro Max?"
+      ],
+      "responses": [
+        "The price of the Iphone 13 Pro Max is 340000 Sri Lankan Rupees.",
+        "The Iphone 13 Pro Max is available for 340000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_13_Pro_price",
+      "patterns": [
+        "What is the price of the Iphone 13 Pro?",
+        "How much does the Iphone 13 Pro cost?",
+        "Can you tell me the price of the Iphone 13 Pro?"
+      ],
+      "responses": [
+        "The price of the Iphone 13 Pro is 290000 Sri Lankan Rupees.",
+        "The Iphone 13 Pro is available for 290000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_13_price",
+      "patterns": [
+        "What is the price of the Iphone 13?",
+        "How much does the Iphone 13 cost?",
+        "Can you tell me the price of the Iphone 13?"
+      ],
+      "responses": [
+        "The price of the Iphone 13 is 230000 Sri Lankan Rupees.",
+        "The Iphone 13 is available for 230000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_13_Mini_price",
+      "patterns": [
+        "What is the price of the Iphone 13 Mini?",
+        "How much does the Iphone 13 Mini cost?",
+        "Can you tell me the price of the Iphone 13 Mini?"
+      ],
+      "responses": [
+        "The price of the Iphone 13 Mini is 199000 Sri Lankan Rupees.",
+        "The Iphone 13 Mini is available for 199000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_14_Pro_Max_price",
+      "patterns": [
+        "What is the price of the Iphone 14 Pro Max?",
+        "How much does the Iphone 14 Pro Max cost?",
+        "Can you tell me the price of the Iphone 14 Pro Max?"
+      ],
+      "responses": [
+        "The price of the Iphone 14 Pro Max is 480000 Sri Lankan Rupees.",
+        "The Iphone 14 Pro Max is available for 480000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_14_Pro_price",
+      "patterns": [
+        "What is the price of the Iphone 14 Pro?",
+        "How much does the Iphone 14 Pro cost?",
+        "Can you tell me the price of the Iphone 14 Pro?"
+      ],
+      "responses": [
+        "The price of the Iphone 14 Pro is 300000 Sri Lankan Rupees.",
+        "The Iphone 14 Pro is available for 300000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_14_Plus_price",
+      "patterns": [
+        "What is the price of the Iphone 14 Plus?",
+        "How much does the Iphone 14 Plus cost?",
+        "Can you tell me the price of the Iphone 14 Plus?"
+      ],
+      "responses": [
+        "The price of the Iphone 14 Plus is 285000 Sri Lankan Rupees.",
+        "The Iphone 14 Plus is available for 285000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Iphone_14_price",
+      "patterns": [
+        "What is the price of the Iphone 14?",
+        "How much does the Iphone 14 cost?",
+        "Can you tell me the price of the Iphone 14?"
+      ],
+      "responses": [
+        "The price of the Iphone 14 is 250000 Sri Lankan Rupees.",
+        "The Iphone 14 is available for 250000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Latest_Samsung_phone_price",
+      "patterns": [
+        "What is the price of the Latest Samsung phone?",
+        "How much does the Latest Samsung phone cost?",
+        "What is the latest Samsung phone?",
+        "Can you tell me the price of the Latest Samsung phone?"
+      ],
+      "responses": [
+        "The Latest Samsung phone is Samsung Galaxy S23 Ultra and it will cost 325000 Sri Lankan Rupees.",
+        "The Latest Samsung phone available is the Samsung Galaxy S23 Ultra for 325000 Sri Lankan Rupees."
+      ]
+    },
+    {
+     "tag": "Samsung Galaxy S23 Ultra_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S23 Ultra?",
+        "How much does the Samsung Galaxy S23 Ultra cost?",
+        "Can you tell me the price of the Samsung Galaxy S23 Ultra?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S23 Ultra is 325000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S23 Ultra is available for 325000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S23+_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S23+?",
+        "How much does the Samsung Galaxy S23+ cost?",
+        "Can you tell me the price of the Samsung Galaxy S23+?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S23+ is 345000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S23+ is available for 345000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S23_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S23?",
+        "How much does the Samsung Galaxy S23 cost?",
+        "Can you tell me the price of the Samsung Galaxy S23?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S23 is 220000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S23 is available for 220000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S22 Ultra_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S22 Ultra?",
+        "How much does the Samsung Galaxy S22 Ultra cost?",
+        "Can you tell me the price of the Samsung Galaxy S22 Ultra?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S22 Ultra is 289000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S22 Ultra is available for 289000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S22+_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S22+?",
+        "How much does the Samsung Galaxy S22+ cost?",
+        "Can you tell me the price of the Samsung Galaxy S22+?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S22+ is 259999 Sri Lankan Rupees.",
+        "The Samsung Galaxy S22+ is available for 259999 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S22_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S22?",
+        "How much does the Samsung Galaxy S22 cost?",
+        "Can you tell me the price of the Samsung Galaxy S22?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S22 is 190000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S22 is available for 190000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S21 Ultra_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S21 Ultra?",
+        "How much does the Samsung Galaxy S21 Ultra cost?",
+        "Can you tell me the price of the Samsung Galaxy S21 Ultra?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S21 Ultra is 345000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S21 Ultra is available for 345000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S21+_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S21+?",
+        "How much does the Samsung Galaxy S21+ cost?",
+        "Can you tell me the price of the Samsung Galaxy S21+?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S21+ is 220000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S21+ is available for 220000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S21_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S21?",
+        "How much does the Samsung Galaxy S21 cost?",
+        "Can you tell me the price of the Samsung Galaxy S21?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S22 is 199000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S22 is available for 199000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S20 Ultra_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S20 Ultra?",
+        "How much does the Samsung Galaxy S20 Ultra cost?",
+        "Can you tell me the price of the Samsung Galaxy S20 Ultra?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S20 Ultra is 204990 Sri Lankan Rupees.",
+        "The Samsung Galaxy S20 Ultra is available for 204990 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S20+_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S20+?",
+        "How much does the Samsung Galaxy S20+ cost?",
+        "Can you tell me the price of the Samsung Galaxy S20+?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S20+ is 198000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S20+ is available for 198000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S20_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S20?",
+        "How much does the Samsung Galaxy S20 cost?",
+        "Can you tell me the price of the Samsung Galaxy S20?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S20 is 270000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S20 is available for 270000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S10 Plus_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S10 Plus?",
+        "How much does the Samsung Galaxy S10 Plus cost?",
+        "Can you tell me the price of the Samsung Galaxy S10 Plus?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S10 Plus is 129000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S10 Plus is available for 129000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S10e_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S10e?",
+        "How much does the Samsung Galaxy S10e cost?",
+        "Can you tell me the price of the Samsung Galaxy S10e?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S10e is 109900 Sri Lankan Rupees.",
+        "The Samsung Galaxy S10e is available for 109900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S10_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S10?",
+        "How much does the Samsung Galaxy S10 cost?",
+        "Can you tell me the price of the Samsung Galaxy S10?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S10 is 105950 Sri Lankan Rupees.",
+        "The Samsung Galaxy S10 is available for 105950 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S9 Plus_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S9 Plus?",
+        "How much does the Samsung Galaxy S9 Plus cost?",
+        "Can you tell me the price of the Samsung Galaxy S9 Plus?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S9 Plus is 150000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S9 Plus is available for 150000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S9_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S9?",
+        "How much does the Samsung Galaxy S9 cost?",
+        "Can you tell me the price of the Samsung Galaxy S9?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S9 is 169000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S9 is available for 169000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S8 Plus_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S8 Plus?",
+        "How much does the Samsung Galaxy S8 Plus cost?",
+        "Can you tell me the price of the Samsung Galaxy S8 Plus?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S8 Plus is 174000 Sri Lankan Rupees.",
+        "The Samsung Galaxy S8 Plus is available for 174000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S8_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy S8?",
+        "How much does the Samsung Galaxy S8 cost?",
+        "Can you tell me the price of the Samsung Galaxy S8?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy S8 is 126500 Sri Lankan Rupees.",
+        "The Samsung Galaxy S8 is available for 126500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy Note 20 FE_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy Note 20 FE?",
+        "How much does the Samsung Galaxy Note 20 FE cost?",
+        "Can you tell me the price of the Samsung Galaxy Note 20 FE?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy Note 20 FE is 175000 Sri Lankan Rupees.",
+        "The Samsung Galaxy Note 20 FE is available for 175000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy Note20 Ultra_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy Note20 Ultra?",
+        "How much does the Samsung Galaxy Note20 Ultra cost?",
+        "Can you tell me the price of the Samsung Galaxy Note20 Ultra?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy Note20 Ultra is 232974 Sri Lankan Rupees.",
+        "The Samsung Galaxy Note20 Ultra is available for 232974 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy Note20_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy Note20?",
+        "How much does the Samsung Galaxy Note20 cost?",
+        "Can you tell me the price of the Samsung Galaxy Note20?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy Note20 is 175000 Sri Lankan Rupees.",
+        "The Samsung Galaxy Note20 is available for 175000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy Note10+_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy Note10+?",
+        "How much does the Samsung Galaxy Note10+ cost?",
+        "Can you tell me the price of the Samsung Galaxy Note10+?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy Note10+ is 139000 Sri Lankan Rupees.",
+        "The Samsung Galaxy Note10+ is available for 139000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy Note10_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy Note10?",
+        "How much does the Samsung Galaxy Note10 cost?",
+        "Can you tell me the price of the Samsung Galaxy Note10?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy Note10 is 99900 Sri Lankan Rupees.",
+        "The Samsung Galaxy Note10 is available for 99900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy Note9_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy Note9?",
+        "How much does the Samsung Galaxy Note9 cost?",
+        "Can you tell me the price of the Samsung Galaxy Note9?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy Note9 is 107800 Sri Lankan Rupees.",
+        "The Samsung Galaxy Note9 is available for 107800 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy Note8_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy Note8?",
+        "How much does the Samsung Galaxy Note8 cost?",
+        "Can you tell me the price of the Samsung Galaxy Note8?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy Note8 is 93240 Sri Lankan Rupees.",
+        "The Samsung Galaxy Note8 is available for 9324 0 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A72 5G_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A72 5G?",
+        "How much does the Samsung Galaxy A72 5G cost?",
+        "Can you tell me the price of the Samsung Galaxy A72 5G?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A72 5G is 157500 Sri Lankan Rupees.",
+        "The Samsung Galaxy A72 5G is available for 157500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A72 5G_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A72 5G?",
+        "How much does the Samsung Galaxy A72 5G cost?",
+        "Can you tell me the price of the Samsung Galaxy A72 5G?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A72 5G is 157500 Sri Lankan Rupees.",
+        "The Samsung Galaxy A72 5G is available for 157500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A52s_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A52s?",
+        "How much does the Samsung Galaxy A52s cost?",
+        "Can you tell me the price of the Samsung Galaxy A52s?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A52s is 139900 Sri Lankan Rupees.",
+        "The Samsung Galaxy A52s is available for 139900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A42_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A42?",
+        "How much does the Samsung Galaxy A42 cost?",
+        "Can you tell me the price of the Samsung Galaxy A42?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A42 is 120000 Sri Lankan Rupees.",
+        "The Samsung Galaxy A42 is available for 120000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A22_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A22?",
+        "How much does the Samsung Galaxy A22 cost?",
+        "Can you tell me the price of the Samsung Galaxy A22?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A22 is 104000 Sri Lankan Rupees.",
+        "The Samsung Galaxy A22 is available for 104000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A72_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A72?",
+        "How much does the Samsung Galaxy A72 cost?",
+        "Can you tell me the price of the Samsung Galaxy A72?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A72 is 157500 Sri Lankan Rupees.",
+        "The Samsung Galaxy A72 is available for 157500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A52_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A52?",
+        "How much does the Samsung Galaxy A52 cost?",
+        "Can you tell me the price of the Samsung Galaxy A52?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A52 is 118500 Sri Lankan Rupees.",
+        "The Samsung Galaxy A52 is available for 118500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A32_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A32?",
+        "How much does the Samsung Galaxy A32 cost?",
+        "Can you tell me the price of the Samsung Galaxy A32?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A32 is 89900 Sri Lankan Rupees.",
+        "The Samsung Galaxy A32 is available for 89900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A12_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A12?",
+        "How much does the Samsung Galaxy A12 cost?",
+        "Can you tell me the price of the Samsung Galaxy A12?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A12 is 69900 Sri Lankan Rupees.",
+        "The Samsung Galaxy A12 is available for 69900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A51_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A51?",
+        "How much does the Samsung Galaxy A51 cost?",
+        "Can you tell me the price of the Samsung Galaxy A51?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A51 is 104900 Sri Lankan Rupees.",
+        "The Samsung Galaxy A51 is available for 104900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A71_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A71?",
+        "How much does the Samsung Galaxy A71 cost?",
+        "Can you tell me the price of the Samsung Galaxy A71?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A71 is 129000 Sri Lankan Rupees.",
+        "The Samsung Galaxy A71 is available for 129000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A50_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A50?",
+        "How much does the Samsung Galaxy A50 cost?",
+        "Can you tell me the price of the Samsung Galaxy A50?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A50 is 54900 Sri Lankan Rupees.",
+        "The Samsung Galaxy A50 is available for 54900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A40_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A40?",
+        "How much does the Samsung Galaxy A40 cost?",
+        "Can you tell me the price of the Samsung Galaxy A40?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A40 is 34900 Sri Lankan Rupees.",
+        "The Samsung Galaxy A40 is available for 34900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A30_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A30?",
+        "How much does the Samsung Galaxy A30 cost?",
+        "Can you tell me the price of the Samsung Galaxy A30?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A30 is 47500 Sri Lankan Rupees.",
+        "The Samsung Galaxy A30 is available for 47500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A20_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A20?",
+        "How much does the Samsung Galaxy A20 cost?",
+        "Can you tell me the price of the Samsung Galaxy A20?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A20 is 42000 Sri Lankan Rupees.",
+        "The Samsung Galaxy A20 is available for 42000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A10_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A10?",
+        "How much does the Samsung Galaxy A10 cost?",
+        "Can you tell me the price of the Samsung Galaxy A10?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A10 is 24900 Sri Lankan Rupees.",
+        "The Samsung Galaxy A10 is available for 24900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A7_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A7?",
+        "How much does the Samsung Galaxy A7 cost?",
+        "Can you tell me the price of the Samsung Galaxy A7?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A7 is 47950 Sri Lankan Rupees.",
+        "The Samsung Galaxy A7 is available for 47950 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A5_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A5?",
+        "How much does the Samsung Galaxy A5 cost?",
+        "Can you tell me the price of the Samsung Galaxy A5?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A5 is 35500 Sri Lankan Rupees.",
+        "The Samsung Galaxy A5 is available for 35500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy A3_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy A3?",
+        "How much does the Samsung Galaxy A3 cost?",
+        "Can you tell me the price of the Samsung Galaxy A3?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy A3 is 39900 Sri Lankan Rupees.",
+        "The Samsung Galaxy A3 is available for 39900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy M31s_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy M31s?",
+        "How much does the Samsung Galaxy M31s cost?",
+        "Can you tell me the price of the Samsung Galaxy M31s?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy M31s is 40185 Sri Lankan Rupees.",
+        "The Samsung Galaxy M31s is available for 40185 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy M12_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy M12?",
+        "How much does the Samsung Galaxy M12 cost?",
+        "Can you tell me the price of the Samsung Galaxy M12?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy M12 is 54950 Sri Lankan Rupees.",
+        "The Samsung Galaxy M12 is available for 54950 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy M51_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy M51?",
+        "How much does the Samsung Galaxy M51 cost?",
+        "Can you tell me the price of the Samsung Galaxy M51?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy M51 is 92000 Sri Lankan Rupees.",
+        "The Samsung Galaxy M51 is available for 92000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy M40_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy M40?",
+        "How much does the Samsung Galaxy M40 cost?",
+        "Can you tell me the price of the Samsung Galaxy M40?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy M40 is 57900 Sri Lankan Rupees.",
+        "The Samsung Galaxy M40 is available for 57900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy M31_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy M31?",
+        "How much does the Samsung Galaxy M31 cost?",
+        "Can you tell me the price of the Samsung Galaxy M31?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy M31 is 69900 Sri Lankan Rupees.",
+        "The Samsung Galaxy M31 is available for 69900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy M30_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy M30?",
+        "How much does the Samsung Galaxy M30 cost?",
+        "Can you tell me the price of the Samsung Galaxy M30?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy M30 is 41500 Sri Lankan Rupees.",
+        "The Samsung Galaxy M30 is available for 41500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy M20_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy M20?",
+        "How much does the Samsung Galaxy M20 cost?",
+        "Can you tell me the price of the Samsung Galaxy M20?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy M20 is 39900 Sri Lankan Rupees.",
+        "The Samsung Galaxy M20 is available for 39900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy M10_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy M10?",
+        "How much does the Samsung Galaxy M10 cost?",
+        "Can you tell me the price of the Samsung Galaxy M10?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy M10 is 55500 Sri Lankan Rupees.",
+        "The Samsung Galaxy M10 is available for 55500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy Fold_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy Fold?",
+        "How much does the Samsung Galaxy Fold cost?",
+        "Can you tell me the price of the Samsung Galaxy Fold?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy Fold is 499900 Sri Lankan Rupees.",
+        "The Samsung Galaxy Fold is available for 499900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy Z Flip_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy Z Flip?",
+        "How much does the Samsung Galaxy Z Flip cost?",
+        "Can you tell me the price of the Samsung Galaxy Z Flip?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy Z Flip is 254900 Sri Lankan Rupees.",
+        "The Samsung Galaxy Z Flip is available for 254900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy Z Fold2_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy Z Fold2?",
+        "How much does the Samsung Galaxy Z Fold2 cost?",
+        "Can you tell me the price of the Samsung Galaxy Z Fold2?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy Z Fold2 is 399900 Sri Lankan Rupees.",
+        "The Samsung Galaxy Z Fold2 is available for 399900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy Z Flip 3_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy Z Flip 3?",
+        "How much does the Samsung Galaxy Z Flip 3 cost?",
+        "Can you tell me the price of the Samsung Galaxy Z Flip 3?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy Z Flip 3 is 259900 Sri Lankan Rupees.",
+        "The Samsung Galaxy Z Flip 3 is available for 259900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy Z Fold3_price",
+      "patterns": [
+        "What is the price of the Samsung Galaxy Z Fold3?",
+        "How much does the Samsung Galaxy Z Fold3 cost?",
+        "Can you tell me the price of the Samsung Galaxy Z Fold3?"
+      ],
+      "responses": [
+        "The price of the Samsung Galaxy Z Fold3 is 410000 Sri Lankan Rupees.",
+        "The Samsung Galaxy Z Fold3 is available for 410000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "phone_price",
+      "patterns": [
+        "What is the price of the [phone]?",
+        "How much does the [phone] cost?",
+        "Can you tell me the price of the [phone]?"
+      ],
+      "responses": [
+        "The price of the [phone] is [price] Sri Lankan Rupees.",
+        "The [phone] is available for [price] Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "iphone",
+      "patterns": [
+        "Tell me about the latest iPhone",
+        "What are the features of the new iPhone?",
+        "Can you provide information about the iPhone?"
+      ],
+      "responses": [
+        "The latest iPhone is packed with advanced features. Here are some key highlights:",
+        "The new iPhone offers cutting-edge technology and exciting features. Here are the details:"
+      ]
+    },
+    {
+      "tag": "samsung",
+      "patterns": [
+        "Tell me about the latest Samsung phone",
+        "What are the features of the new Samsung phone?",
+        "Can you provide information about the Samsung phone?"
+      ],
+      "responses": [
+        "The latest Samsung phone is an excellent choice. Here are some notable features:",
+        "The new Samsung phone comes with impressive features. Here's what it offers:"
+      ]
+    },
+    {
+      "tag": "google_pixel",
+      "patterns": [
+        "Tell me about the latest Google Pixel phone",
+        "What are the features of the new Google Pixel phone?",
+        "Can you provide information about the Google Pixel phone?"
+      ],
+      "responses": [
+        "The latest Google Pixel phone is worth considering. Here are its key features:",
+        "The new Google Pixel phone combines innovation and functionality. Here's what it brings to the table:"
+      ]
+    },
+    {
+      "tag": "huawei",
+      "patterns": [
+        "Tell me about the latest Huawei phone",
+        "What are the features of the new Huawei phone?",
+        "Can you provide information about the Huawei phone?"
+      ],
+      "responses": [
+        "The latest Huawei phone offers an impressive set of features. Here are some highlights:",
+        "The new Huawei phone showcases advanced technology and unique features. Here's what you need to know:"
+      ]
+    },
+    {
+      "tag": "xiaomi",
+      "patterns": [
+        "Tell me about the latest Xiaomi phone",
+        "What are the features of the new Xiaomi phone?",
+        "Can you provide information about the Xiaomi phone?"
+      ],
+      "responses": [
+        "The latest Xiaomi phone is a great choice. Here are its key features:",
+        "The new Xiaomi phone brings exceptional features to the table. Here's what it offers:"
+      ]
+    },
+    {
+      "tag": "oneplus",
+      "patterns": [
+        "Tell me about the latest OnePlus phone",
+        "What are the features of the new OnePlus phone?",
+        "Can you provide information about the OnePlus phone?"
+      ],
+      "responses": [
+        "The latest OnePlus phone is designed to impress. Here are its key features:",
+        "The new OnePlus phone offers a remarkable set of features. Here's what you can expect:"
+      ]
+    },
+    {
+      "tag": "oppo",
+      "patterns": [
+        "Tell me about the latest Oppo phone",
+        "What are the features of the new Oppo phone?",
+        "Can you provide information about the Oppo phone?"
+      ],
+      "responses": [
+        "The latest Oppo phone is worth considering. Here are some notable features:",
+        "The new Oppo phone brings innovation and style. Here's what it offers:"
+      ]
+    },
+    {
+      "tag": "lg",
+      "patterns": [
+        "Tell me about the latest LG phone",
+        "What are the features of the new LG phone?",
+        "Can you provide information about the LG phone?"
+      ],
+      "responses": [
+        "The latest LG phone offers impressive features. Here are some key highlights:",
+        "The new LG phone combines style and functionality. Here's what it brings to the table:"
+      ]
+    },
+    {
+      "tag": "sony",
+      "patterns": [
+        "Tell me about the latest Sony phone",
+        "What are the features of the new Sony phone?",
+        "Can you provide information about the Sony phone?"
+      ],
+      "responses": [
+        "The latest Sony phone is packed with exciting features. Here are some notable highlights:",
+        "The new Sony phone offers a great user experience. Here's what it brings to the table:"
+      ]
+    }
+    
+  ]    
+}
