@@ -229,6 +229,42 @@
       ]
     },
     {
+      "tag": "Samsung Galaxy S23_details",
+      "patterns": [
+        "Tell me more about the Samsung Galaxy S23",
+        "What are the features of the Samsung Galaxy S23?",
+        "Can you provide information about the Samsung Galaxy S23?"
+      ],
+      "responses": [
+        "The Samsung Galaxy S23 is a great choice! Here are some of its key features: Technology: GSM / CDMA / HSPA / EVDO / LTE / 5G, SIM: Nano-SIM and eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by), DISPLAY: Dynamic AMOLED 2X-120Hz-HDR10+ -1200 nits (HBM) -1750 nits (peak), DISPLAY Size: 6.1 inches, 90.1 cm2 (~86.8% screen-to-body ratio), Resolution: 1080 x 2340 pixels, 19.5:9 ratio (~425 ppi density), Protection: Corning Gorilla Glass Victus 2 / Always-on display, OS: Android 13- One UI 5.1, Chipset: Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm), Card slot: No, Internal Memory: 128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM, MAIN CAMERA: 50 MP - 10 MP - 12 MP, SELFIE CAMERA: 12 MP, Sensors: Fingerprint (under display, ultrasonic)",
+        "Sure! The Samsung Galaxy S23 offers the following features:Technology: GSM / CDMA / HSPA / EVDO / LTE / 5G, SIM: Nano-SIM and eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by), DISPLAY: Dynamic AMOLED 2X, 120Hz, HDR10+, 1200 nits (HBM), 1750 nits (peak), DISPLAY Size: 6.1 inches, 90.1 cm2 (~86.8% screen-to-body ratio), Resolution: 1080 x 2340 pixels, 19.5:9 ratio (~425 ppi density), Protection: Corning Gorilla Glass Victus 2 / Always-on display, OS: Android 13, One UI 5.1, Chipset: Qualcomm SM8550-AC Snapdragon 8 Gen 2 (4 nm), Card slot: No, Internal Memory: 128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM, MAIN CAMERA: 50 MP - 10 MP - 12 MP, SELFIE CAMERA: 12 MP, Sensors: Fingerprint (under display, ultrasonic)"
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S22 _details",
+      "patterns": [
+        "Tell me more about the Samsung Galaxy S22",
+        "What are the features of the Samsung Galaxy S22?",
+        "Can you provide information about the Samsung Galaxy S22?"
+      ],
+      "responses": [
+        "The Samsung Galaxy S22 is a great choice! Here are some of its key features: Technology: GSM / CDMA / HSPA / EVDO / LTE / 5G, SIM: Nano-SIM and eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by), DISPLAY: Dynamic AMOLED 2X-120Hz-HDR10+ -1200 nits (HBM) -1750 nits (peak), DISPLAY Size:6.8 inches, Protection: Corning Gorilla Glass Victus 2 / Always-on display, Android 12 - upgradable to Android 13 - One UI 5.1, Chipset: Exynos 2200 (4 nm) - Europe - Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm) - ROW, Card slot: No, Internal Memory: 128GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM UFS 3.1 , MAIN CAMERA: 108 MP - 10 MP - 10 MP - 12 MP, SELFIE CAMERA:  40 MP, Sensors: Fingerprint (under display, ultrasonic)",
+        "Sure! The Samsung Galaxy S22 offers the following features:Technology: GSM / CDMA / HSPA / EVDO / LTE / 5G, SIM: Nano-SIM and eSIM or Dual SIM (2 Nano-SIMs and eSIM, dual stand-by), DISPLAY: Dynamic AMOLED 2X-120Hz-HDR10+ -1200 nits (HBM) -1750 nits (peak), DISPLAY Size:6.8 inches, Protection: Corning Gorilla Glass Victus 2 / Always-on display, Android 12 - upgradable to Android 13 - One UI 5.1, Chipset: Exynos 2200 (4 nm) - Europe - Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm) - ROW, Card slot: No, Internal Memory: 128GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM UFS 3.1 , MAIN CAMERA: 108 MP - 10 MP - 10 MP - 12 MP, SELFIE CAMERA:  40 MP, Sensors: Fingerprint (under display, ultrasonic)"
+      ]
+    },
+    {
+      "tag": "Samsung Galaxy S21_details",
+      "patterns": [
+        "Tell me more about the Samsung Galaxy S21",
+        "What are the features of the Samsung Galaxy S21?",
+        "Can you provide information about the Samsung Galaxy S21?"
+      ],
+      "responses": [
+        "The Samsung Galaxy S21 is a great choice! Here are some of its key features:Display: 6.2-inch Dynamic AMOLED 2X display, Processor: Exynos 2100, RAM and Storage: 8GB RAM - 128GB or 256GB internal storage options, Min Cameras: 12MP wide-angle camera with f/1.8 aperture - 12MP ultra-wide camera with f/2.2 aperture - 64MP telephoto camera with f/2.0 aperture, Selfie Cam: 10MP front-facing camera with f/2.2 aperture, Battery: 4,000mAh battery capacity, OS: Android 11 with Samsung's One UI 3.1, Features: In-display Ultrasonic Fingerprint Sensor for biometric authentication",
+        "Sure! The Samsung Galaxy S21 offers the following features:Display: 6.2-inch Dynamic AMOLED 2X display, Processor: Exynos 2100, RAM and Storage: 8GB RAM - 128GB or 256GB internal storage options, Min Cameras: 12MP wide-angle camera with f/1.8 aperture - 12MP ultra-wide camera with f/2.2 aperture - 64MP telephoto camera with f/2.0 aperture, Selfie Cam: 10MP front-facing camera with f/2.2 aperture, Battery: 4,000mAh battery capacity, OS: Android 11 with Samsung's One UI 3.1, Features: In-display Ultrasonic Fingerprint Sensor for biometric authentication"
+      ]
+    },
+    {
       "tag": "phone_brand",
       "patterns": [
         "Which brands of phones do you have?",
