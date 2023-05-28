@@ -1264,6 +1264,186 @@
       ]
     },
     {
+      "tag": "Google Pixel Fold",
+      "patterns": [
+      "What is the price of the Google Pixel Fold?",
+      "How much does the Google Pixel Fold cost?",
+      "Can you tell me the price of the Google Pixel Fold?"
+      ],
+      "responses": [
+      "The price of the Google Pixel Fold is 532500 Sri Lankan Rupees.",
+      "The Google Pixel Fold is available for 532500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Google Pixel 9 5G",
+      "patterns": [
+      "What is the price of the Google Pixel 9 5G?",
+      "How much does the Google Pixel 9 5G cost?",
+      "Can you tell me the price of the Google Pixel 9 5G?"
+      ],
+      "responses": [
+      "The price of the Google Pixel 9 5G is 359900 Sri Lankan Rupees.",
+      "The Google Pixel 9 5G is available for 359900 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Google Pixel 7 Pro 8GB RAM",
+      "patterns": [
+      "What is the price of the Google Pixel 7 Pro 8GB RAM?",
+      "How much does the Google Pixel 7 Pro 8GB RAM cost?",
+      "Can you tell me the price of the Google Pixel 7 Pro 8GB RAM?"
+      ],
+      "responses": [
+      "The price of the Google Pixel 7 Pro 8GB RAM is 285000 Sri Lankan Rupees.",
+      "The Google Pixel 7 Pro 8GB RAM is available for 285000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Google Pixel 7 Pro 128GB ROM",
+      "patterns": [
+      "What is the price of the Google Pixel 7 Pro 128GB ROM?",
+      "How much does the Google Pixel 7 Pro 128GB ROM cost?",
+      "Can you tell me the price of the Google Pixel 7 Pro 128GB ROM?"
+      ],
+      "responses": [
+      "The price of the Google Pixel 7 Pro 128GB ROM is 270000 Sri Lankan Rupees.",
+      "The Google Pixel 7 Pro 128GB ROM is available for 270000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Google Pixel 7 Pro 512GB ROM",
+      "patterns": [
+      "What is the price of the Google Pixel 7 Pro 512GB ROM?",
+      "How much does the Google Pixel 7 Pro 512GB ROM cost?",
+      "Can you tell me the price of the Google Pixel 7 Pro 512GB ROM?"
+      ],
+      "responses": [
+      "The price of the Google Pixel 7 Pro 512GB ROM is 337500 Sri Lankan Rupees.",
+      "The Google Pixel 7 Pro 512GB ROM is available for 337500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Google Pixel 7 Pro 256GB ROM",
+      "patterns": [
+      "What is the price of the Google Pixel 7 Pro 256GB ROM?",
+      "How much does the Google Pixel 7 Pro 256GB ROM cost?",
+      "Can you tell me the price of the Google Pixel 7 Pro 256GB ROM?"
+      ],
+      "responses": [
+      "The price of the Google Pixel 7 Pro 256GB ROM is 322500 Sri Lankan Rupees.",
+      "The Google Pixel 7 Pro 256GB ROM is available for 322500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Xiaomi 13 Ultra",
+      "patterns": [
+      "What is the price of the Xiaomi 13 Ultra?",
+      "How much does the Xiaomi 13 Ultra cost?",
+      "Can you tell me the price of the Xiaomi 13 Ultra?"
+      ],
+      "responses": [
+      "The price of the Xiaomi 13 Ultra is 288000 Sri Lankan Rupees.",
+      "The Xiaomi 13 Ultra is available for 288000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Xiaomi 13 Pro",
+      "patterns": [
+      "What is the price of the Xiaomi 13 Pro?",
+      "How much does the Xiaomi 13 Pro cost?",
+      "Can you tell me the price of the Xiaomi 13 Pro?"
+      ],
+      "responses": [
+      "The price of the Xiaomi 13 Pro is 273000 Sri Lankan Rupees.",
+      "The Xiaomi 13 Pro is available for 273000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Xiaomi 13",
+      "patterns": [
+      "What is the price of the Xiaomi 13?",
+      "How much does the Xiaomi 13 cost?",
+      "Can you tell me the price of the Xiaomi 13?"
+      ],
+      "responses": [
+      "The price of the Xiaomi 13 is 165000 Sri Lankan Rupees.",
+      "The Xiaomi 13 is available for 165000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Xiaomi 13 Lite",
+      "patterns": [
+      "What is the price of the Xiaomi 13 Lite?",
+      "How much does the Xiaomi 13 Lite cost?",
+      "Can you tell me the price of the Xiaomi 13 Lite?"
+      ],
+      "responses": [
+      "The price of the Xiaomi 13 Lite is 160000 Sri Lankan Rupees.",
+      "The Xiaomi 13 Lite is available for 160000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Xiaomi 12T Pro",
+      "patterns": [
+      "What is the price of the Xiaomi 12T Pro?",
+      "How much does the Xiaomi 12T Pro cost?",
+      "Can you tell me the price of the Xiaomi 12T Pro?"
+      ],
+      "responses": [
+      "The price of the Xiaomi 12T Pro is 222000 Sri Lankan Rupees.",
+      "The Xiaomi 12T Pro is available for 222000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Xiaomi 12T",
+      "patterns": [
+      "What is the price of the Xiaomi 12T?",
+      "How much does the Xiaomi 12T cost?",
+      "Can you tell me the price of the Xiaomi 12T?"
+      ],
+      "responses": [
+      "The price of the Xiaomi 12T is 177000 Sri Lankan Rupees.",
+      "The Xiaomi 12T is available for 177000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Huawei Mate X3",
+      "patterns": [
+      "What is the price of the Huawei Mate X3?",
+      "How much does the Huawei Mate X3 cost?",
+      "Can you tell me the price of the Huawei Mate X3?"
+      ],
+      "responses": [
+      "The price of the Huawei Mate X3 is 570000 Sri Lankan Rupees.",
+      "The Huawei Mate X3 is available for 570000 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Huawei P60",
+      "patterns": [
+      "What is the price of the Huawei P60?",
+      "How much does the Huawei P60 cost?",
+      "Can you tell me the price of the Huawei P60?"
+      ],
+      "responses": [
+      "The price of the Huawei P60 is 196500 Sri Lankan Rupees.",
+      "The Huawei P60 is available for 196500 Sri Lankan Rupees."
+      ]
+    },
+    {
+      "tag": "Huawei P60 Pro",
+      "patterns": [
+      "What is the price of the Huawei P60 Pro?",
+      "How much does the Huawei P60 Pro cost?",
+      "Can you tell me the price of the Huawei P60 Pro?"
+      ],
+      "responses": [
+      "The price of the Huawei P60 Pro is 306000 Sri Lankan Rupees.",
+      "The Huawei P60 Pro is available for 306000 Sri Lankan Rupees."
+      ]
+    },
+    {
       "tag": "phone_price",
       "patterns": [
         "What is the price of the [phone]?",
